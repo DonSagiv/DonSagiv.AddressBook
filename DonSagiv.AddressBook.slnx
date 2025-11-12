@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/DonSagiv.AddressBook.Services/">
+    <Project Path="src/DonSagiv.AddressBook.Services/DonSagiv.Services.AddressBook.Orchestrator/DonSagiv.Services.AddressBook.Orchestrator.csproj" />
+  </Folder>
+  <Folder Name="/src/DonSagiv.AddressBook.UI/">
+    <Project Path="src/DonSagiv.AddressBook.UI/DonSagiv.UI.AddressBook.Blazor/DonSagiv.UI.AddressBook.Blazor.Client/DonSagiv.UI.AddressBook.Blazor.Client.csproj" />
+    <Project Path="src/DonSagiv.AddressBook.UI/DonSagiv.UI.AddressBook.Blazor/DonSagiv.UI.AddressBook.Blazor/DonSagiv.UI.AddressBook.Blazor.csproj" />
+  </Folder>
+</Solution>
