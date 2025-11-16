@@ -1,5 +1,8 @@
 <Solution>
   <Folder Name="/src/" />
+  <Folder Name="/src/DonSagiv.AddressBook.Domain/">
+    <Project Path="src/DonSagiv.AddressBook.Domain/DonSagiv.Domain.AddressBook/DonSagiv.Domain.AddressBook.csproj" Id="c9a1b010-9936-49d3-a00b-ae6035ec28de" />
+  </Folder>
   <Folder Name="/src/DonSagiv.AddressBook.Services/">
     <Project Path="src/DonSagiv.AddressBook.Services/DonSagiv.Services.AddressBook.Orchestrator/DonSagiv.Services.AddressBook.Orchestrator.csproj" />
   </Folder>
