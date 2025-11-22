@@ -1,5 +1,8 @@
-﻿namespace DonSagiv.Domain.AddressBook.Address;
+﻿using DonSagiv.Domain.Standard.DependencyInjection;
 
+namespace DonSagiv.Domain.AddressBook.Address;
+
+[Export(typeof(IAddress))]
 internal class Adderss : IAddress
 {
     #region Properties

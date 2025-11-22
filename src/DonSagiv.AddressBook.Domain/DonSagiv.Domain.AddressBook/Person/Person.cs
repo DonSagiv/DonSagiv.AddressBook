@@ -1,7 +1,9 @@
-﻿using System;
+﻿using DonSagiv.Domain.Standard.DependencyInjection;
+using System;
 
 namespace DonSagiv.Domain.AddressBook.Person;
 
+[Export(typeof(IPerson))]
 internal class Person : IPerson
 {
     #region Properties

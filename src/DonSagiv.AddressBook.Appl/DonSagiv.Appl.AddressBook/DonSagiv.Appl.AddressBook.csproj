@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Common\src\Appl\DonSagiv.Appl.DataAccess\DonSagiv.Appl.DataAccess.csproj" />
+    <ProjectReference Include="..\..\..\..\Common\src\Appl\DonSagiv.Appl.Standard\DonSagiv.Appl.Standard.csproj" />
+    <ProjectReference Include="..\..\..\..\Common\src\Domain\DonSagiv.Domain.Standard\DonSagiv.Domain.Standard.csproj" />
+    <ProjectReference Include="..\..\DonSagiv.AddressBook.Domain\DonSagiv.Domain.AddressBook\DonSagiv.Domain.AddressBook.csproj" />
+  </ItemGroup>
+
+</Project>

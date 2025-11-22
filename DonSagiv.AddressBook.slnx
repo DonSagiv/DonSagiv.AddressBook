@@ -1,7 +1,22 @@
 <Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path="Directory.Build.props" />
+  </Folder>
   <Folder Name="/src/" />
+  <Folder Name="/src/DonSagiv.AddressBook.Appl/">
+    <Project Path="../Common/src/Appl/DonSagiv.Appl.DataAccess/DonSagiv.Appl.DataAccess.csproj" />
+    <Project Path="../Common/src/Appl/DonSagiv.Appl.Standard/DonSagiv.Appl.Standard.csproj" />
+    <Project Path="src/DonSagiv.AddressBook.Appl/DonSagiv.Appl.AddressBook/DonSagiv.Appl.AddressBook.csproj" Id="d6bc4e6f-96ec-46aa-81f2-893c28b5aeaf" />
+  </Folder>
   <Folder Name="/src/DonSagiv.AddressBook.Domain/">
+    <Project Path="../Common/src/Domain/DonSagiv.Domain.Core/DonSagiv.Domain.Core.csproj" />
+    <Project Path="../Common/src/Domain/DonSagiv.Domain.Standard/DonSagiv.Domain.Standard.csproj" />
     <Project Path="src/DonSagiv.AddressBook.Domain/DonSagiv.Domain.AddressBook/DonSagiv.Domain.AddressBook.csproj" Id="c9a1b010-9936-49d3-a00b-ae6035ec28de" />
+  </Folder>
+  <Folder Name="/src/DonSagiv.AddressBook.Infrastructure/">
+    <Project Path="../Common/src/Infrastructure/DonSagiv.Infrastructure.DataAccess.MongoDb/DonSagiv.Infrastructure.DataAccess.MongoDb.csproj" />
+    <Project Path="src/DonSagiv.AddressBook.Infrastructure/DonSagiv.Infrastructure.AddressBook/DonSagiv.Infrastructure.AddressBook.csproj" />
   </Folder>
   <Folder Name="/src/DonSagiv.AddressBook.Services/">
     <Project Path="src/DonSagiv.AddressBook.Services/DonSagiv.Services.AddressBook.Orchestrator/DonSagiv.Services.AddressBook.Orchestrator.csproj" />
